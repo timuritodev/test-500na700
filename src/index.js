@@ -1,4 +1,5 @@
 import './index.scss'
+import logo from './assets/logo.svg'
 
 console.log('red');
 
