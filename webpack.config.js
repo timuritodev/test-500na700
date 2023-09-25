@@ -4,7 +4,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'production',
     entry: {
-        filename: path.resolve(__dirname, 'src/index.js')
+        filename: path.resolve(__dirname, 'src/index.jsx')
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -35,13 +35,34 @@ module.exports = {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
             },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    presets: [
+                        '@babel/preset-env'
+                    ],
+                }
+            },
+            {
+                test: /\.jsx$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    presets: [
+                        '@babel/preset-env',
+                        '@babel/preset-react'
+                    ],
+                }
+            },
         ]
     },
     plugins: [
         new htmlWebpackPlugin({
             title: 'My web-page',
             filename: 'index.html',
-            // template: 'src/index.html',
+            template: 'src/index.html',
         })
     ]
 }
