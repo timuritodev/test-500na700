@@ -2,6 +2,15 @@
   width: 100%;
   margin: 0 auto;
   padding: 77px 0 85px 0;
+  background-color: #000;
+  z-index: 2;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header__container {
