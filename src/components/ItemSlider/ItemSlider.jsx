@@ -14,11 +14,12 @@ export const ItemSlider = ({ data }) => {
     speed: 500,
     slidesToShow: 1,
     centerMode: true,
-    focusOnSelect: true,
+    // focusOnSelect: true,
     arrows: true,
     autoplay: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    centerPadding: "84px",
   };
 
   return (
