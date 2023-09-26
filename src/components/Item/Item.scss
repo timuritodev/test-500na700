@@ -1,16 +1,25 @@
 .item {
-    position: relative;
+  position: relative;
+  width: 1240px;
+  height: 650px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .item__img {
-    max-width: 1240px;
-    height: 650px;
+  max-width: 1240px;
+  height: 650px;
 }
 
 .item__title {
-    // position: absolute;
-    // bottom: 200px;
-    color: #fff;
-    width: 100px;
-    margin: 0;
+  position: absolute;
+  bottom: 200px;
+  margin: 0 0 0 50px;
+  font-family: Mplus 1p;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 85px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fff;
 }
