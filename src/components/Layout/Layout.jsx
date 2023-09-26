@@ -7,10 +7,10 @@ import { Footer } from "../Footer/Footer.jsx";
 
 export const Layout = () => {
   return (
-    <div className="layout">
+    <layout className="layout">
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    </layout>
   );
 };

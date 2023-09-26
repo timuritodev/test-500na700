@@ -3,7 +3,7 @@ import "./FAQ.scss";
 
 export const FAQ = () => {
   return (
-    <section className="faq">
+    <div className="faq">
       <h2 className="faq__title">FAQ</h2>
       <div className="faq__container">
         <div className="faq__sub-container">
@@ -23,6 +23,6 @@ export const FAQ = () => {
           <p className="faq__text"></p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
