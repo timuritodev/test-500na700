@@ -1,19 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./ItemSlider.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Item } from "../Item/Item.jsx";
+import { PrevArrow } from "../Arrows/PrevArrow.jsx";
+import { NextArrow } from "../Arrows/NextArrow.jsx";
 
 export const ItemSlider = ({ data }) => {
+  const sliderRef = useRef(null);
+
+  const handlePrevClick = () => {
+    // Перемещение к предыдущему слайду
+    slickPrev();
+  };
+
+  const handleNextClick = () => {
+    // Перемещение к следующему слайду
+    slickNext();
+  };
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     centerMode: true,
     focusOnSelect: true,
-    arrows: false,
+    arrows: true, // Включите стрелки
+    prevArrow: <PrevArrow onClick={handlePrevClick} />, // Передайте функцию для стрелки "назад"
+    nextArrow: <NextArrow onClick={handleNextClick} />,
   };
 
   return (

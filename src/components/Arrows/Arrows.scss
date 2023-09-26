@@ -1,0 +1,30 @@
+/* Внутри компонента PrevArrow.jsx и NextArrow.jsx */
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Разместите стрелки внизу */
+    position: absolute;
+    bottom: 20px; /* Расположите стрелки снизу от изображения */
+    left: 0;
+    right: 0;
+  }
+  
+  .prev {
+    margin-right: 240px; /* Добавьте интервал между стрелками */
+  }
+  
+//   .arrow-container img {
+//     // width: 40px;
+//     // height: 40px;
+//     object-fit: cover;
+//     cursor: pointer;
+//     transition: opacity 0.3s ease;
+//     background-color: rgba(0, 0, 0, 0.5); /* Добавьте цвет фона стрелок */
+//     border-radius: 50%; /* Добавьте скругление для круглых стрелок */
+//     padding: 10px; /* Добавьте отступ вокруг стрелок */
+//   }
+  
+//   .arrow-container:hover img {
+//     opacity: 0.7;
+//   }
+  
