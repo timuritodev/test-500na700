@@ -5,6 +5,7 @@ import { images } from "../../utils/constants.js";
 import { cards } from "../../utils/constants.js";
 import { FAQ } from "../../components/FAQ/FAQ.jsx";
 import { News } from "../../components/News/News.jsx";
+import { Form } from "../../components/Form/Form.jsx";
 
 export const MainPage = () => {
   return (
@@ -12,6 +13,7 @@ export const MainPage = () => {
       <ItemSlider data={images} />
       <FAQ />
       <News data={cards} />
+      <Form />
     </section>
   );
 };
