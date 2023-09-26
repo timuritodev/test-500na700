@@ -1,3 +1,21 @@
-body {
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+:root {
+	margin: 0;
+	font-family: 'MPLUS1p', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #000;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.page {
     background-color: #000;
+	max-width: 1440px;
+	margin: 0 auto;
 }
