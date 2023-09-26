@@ -1,5 +1,5 @@
 .item {
-    // position: relative;
+    position: relative;
 }
 
 .item__img {
@@ -9,5 +9,8 @@
 
 .item__title {
     // position: absolute;
+    // bottom: 200px;
     color: #fff;
+    width: 100px;
+    margin: 0;
 }
