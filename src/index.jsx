@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from "./components/Layout/Layout.jsx";
 import './index.scss'
 import { MainPage } from './pages/MainPage/MainPage.jsx';
+import { ErrorPage } from './pages/ErrorPage/ErrorPage.jsx';
 
 const Root = () => {
   return (
@@ -11,6 +12,7 @@ const Root = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
+					<Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </div>
