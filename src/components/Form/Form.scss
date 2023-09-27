@@ -72,3 +72,16 @@
 .clicked {
   background-color: #75ff72;
 }
+
+@media screen and (max-width: 1410px) {
+  .form__input-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 290px;
+  }
+  .input__field {
+    width: 290px;
+  }
+}

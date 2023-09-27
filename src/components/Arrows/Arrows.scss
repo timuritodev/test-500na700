@@ -14,3 +14,14 @@
     cursor: pointer;
 
 }
+
+@media screen and (max-width: 1410px) {
+    .arrow-container_next {
+        bottom: 0;
+        right: 35px;
+    }
+    .arrow-container_prev {
+        bottom: 0;
+        left: 35px;
+    }
+  }

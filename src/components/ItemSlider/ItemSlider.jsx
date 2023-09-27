@@ -20,6 +20,15 @@ export const ItemSlider = ({ data }) => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     centerPadding: "84px",
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          centerPadding: "0",
+          centerMode: false,
+        },
+      },
+    ],
   };
 
   return (

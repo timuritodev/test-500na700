@@ -23,3 +23,22 @@
   text-align: left;
   color: #fff;
 }
+
+@media screen and (max-width: 1410px) {
+    .item {
+        height: 505px;
+    }
+  .item__img {
+    width: 290px;
+    height: 450px;
+    box-sizing: border-box;
+  }
+  .item__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; 
+    letter-spacing: -1.2px;
+    margin: 0;
+  }
+}

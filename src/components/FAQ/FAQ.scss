@@ -46,3 +46,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media screen and (max-width: 1410px) {
+    .faq {
+        flex-direction: column;
+        width: 290px;
+    }
+  }

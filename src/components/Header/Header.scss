@@ -84,7 +84,7 @@
 //   background-color: rgba(0, 0, 0, 0.5);
 //   z-index: 0;
 // }
-  
+
 .header__link:hover .header__sub-menu {
   display: block;
 }
@@ -94,3 +94,15 @@
 // 		height: 10vw;
 // 	}
 // }
+
+@media screen and (max-width: 1410px) {
+  .header {
+    padding: 35px 0 0 0;
+  }
+  .header__logo {
+    margin: 0 212.5px 0 15px;
+  }
+    .header__links-container {
+    display: none;
+  }
+}

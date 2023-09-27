@@ -64,3 +64,18 @@
   max-width: 28px;
   max-height: 28px;
 }
+
+@media screen and (max-width: 1410px) {
+    .footer {
+        height: 438px;
+    }
+    .footer__subtitle {
+        width: 100vw;
+    }
+    .footer__description {
+        margin: 80px 0 0 15px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+  }

@@ -37,3 +37,14 @@
   margin: 0;
   color: #fff;
 }
+
+@media screen and (max-width: 1410px) {
+  .card {
+    width: 200px;
+    height: 264px;
+  }
+  .card__image {
+  width: 200px;
+
+  }
+}

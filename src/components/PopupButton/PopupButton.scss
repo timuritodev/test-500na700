@@ -1,6 +1,6 @@
-.popup-button {
-    background: rgba(0 0 0 / 34%);
-}
+// .popup-button {
+//     background: rgba(0 0 0 / 34%);
+// }
 
 .popup-button__image {
   width: 36px;
@@ -9,4 +9,11 @@
   background-color: unset;
   background-repeat: no-repeat;
   border: none;
+  display: none;
+}
+
+@media screen and (max-width: 1410px) {
+  .popup-button__image {
+    display: block;
+  }
 }
