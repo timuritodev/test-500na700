@@ -5,6 +5,7 @@ import { Layout } from "./components/Layout/Layout.jsx";
 import './index.scss'
 import { MainPage } from './pages/MainPage/MainPage.jsx';
 import { ErrorPage } from './pages/ErrorPage/ErrorPage.jsx';
+import { Popup } from './components/Popup/Popup.jsx';
 
 const Root = () => {
   return (
@@ -15,6 +16,7 @@ const Root = () => {
 					<Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
+      <Popup />
     </div>
   );
 };

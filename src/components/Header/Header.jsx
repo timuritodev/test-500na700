@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import pic from "../../assets/logo.svg";
+import { PopupButton } from "../PopupButton/PopupButton.jsx";
 
 export const Header = () => {
   return (
@@ -84,6 +85,7 @@ export const Header = () => {
             </ul>
           </li>
         </ul>
+        <PopupButton />
       </div>
     </header>
   );
