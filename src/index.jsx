@@ -13,7 +13,7 @@ const Root = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
-					<Route path="*" element={<ErrorPage />} />
+					{/* <Route path="*" element={<ErrorPage />} /> */}
         </Route>
       </Routes>
       <Popup />
@@ -24,7 +24,7 @@ const Root = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/test-500na700/" >
       <Root />
     </BrowserRouter>
   </React.StrictMode>
