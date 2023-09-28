@@ -5,6 +5,7 @@
   margin: 0 auto;
   // flex-wrap: wrap;
   color: #fff;
+  padding: 100px 0 0 0;
 }
 
 .faq__title {
@@ -24,7 +25,7 @@
 }
 
 .faq__sub-container {
-  border-bottom: 1px solid #FFFFFF33;
+  border-bottom: 1px solid #ffffff33;
 }
 
 .faq__subtitle {
@@ -48,8 +49,16 @@
 }
 
 @media screen and (max-width: 1410px) {
-    .faq {
-        flex-direction: column;
-        width: 290px;
-    }
+  .faq {
+    flex-direction: column;
+    width: 290px;
   }
+  .faq__title {
+    font-family: Mplus 1p;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 85px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+}

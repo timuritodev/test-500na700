@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 77px 0 85px 0;
   background-color: #000;
-  z-index: 2;
+  z-index: 3;
   position: sticky;
   top: 0;
 }
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 1410px) {
   .header {
-    padding: 35px 0 0 0;
+    padding: 35px 0 20px 0;
   }
   .header__logo {
     margin: 0 212.5px 0 15px;

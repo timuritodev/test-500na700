@@ -1,5 +1,6 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     mode: 'production',
@@ -33,10 +34,10 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                use: [MiniCssExtractPlugin.loader, 'css-loader'],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/i,
                 type: 'asset/resource',
             },
             {
@@ -60,13 +61,27 @@ module.exports = {
                     ],
                 }
             },
+            {
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    presets: [
+                        '@babel/preset-env',
+                        '@babel/preset-typescript'
+                    ],
+                }
+            },
         ]
     },
     plugins: [
         new htmlWebpackPlugin({
-            title: 'My web-page',
+            title: 'Title',
             filename: 'index.html',
             template: 'src/index.html',
+        }),
+        new MiniCssExtractPlugin({
+            filename: '[name][contenthash].css'
         })
     ]
 }

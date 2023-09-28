@@ -15,11 +15,15 @@ export const FAQ = () => {
           </p>
         </div>
         <div className="faq__sub-container">
-          <h3 className="faq__subtitle">Есть ли поблизости удобная парковка?</h3>
+          <h3 className="faq__subtitle">
+            Есть ли поблизости удобная парковка?
+          </h3>
           <p className="faq__text"></p>
         </div>
         <div className="faq__sub-container">
-          <h3 className="faq__subtitle">Можно ли воспользоваться аудиогидом?</h3>
+          <h3 className="faq__subtitle">
+            Можно ли воспользоваться аудиогидом?
+          </h3>
           <p className="faq__text"></p>
         </div>
       </div>

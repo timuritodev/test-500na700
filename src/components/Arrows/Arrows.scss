@@ -4,6 +4,7 @@
     left: 600px;
     width: 100px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .arrow-container_next {
@@ -12,16 +13,16 @@
     right: 600px;
     width: 100px;
     cursor: pointer;
-
+    z-index: 2;
 }
 
 @media screen and (max-width: 1410px) {
     .arrow-container_next {
-        bottom: 0;
+        bottom: -50px;
         right: 35px;
     }
     .arrow-container_prev {
-        bottom: 0;
+        bottom: -50px;
         left: 35px;
     }
   }

@@ -11,13 +11,14 @@ export const CardSlider = ({ data }) => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    arrows: false,
-    autoplay: true,
-    centerPadding: "30px",
+    centerMode: true,
+    focusOnSelect: true,
+    arrows: false, // Включите стрелки
+    // centerPadding: "50px",
   };
 
   return (
-    <div className="slick-slider_container">
+    <div className="slick-slider_container_card">
       <Slider {...settings} className="slick-slider">
         {data.map((item) => (
           <Card key={item.id} data={item} />

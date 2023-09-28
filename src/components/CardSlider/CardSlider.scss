@@ -1,23 +1,16 @@
 .slick-slider {
-    max-width: 1430px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+  max-width: 1430px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.slick-slider_container_card {
+  position: relative;
+}
+
+@media screen and (max-width: 1410px) {
+  .slick-slider_container_card {
+    margin: 65px 0 0 0;
   }
-  
-  .slick-slider_container {
-    position: relative;
-  }
-  
-  @media screen and (max-width: 1410px) {
-    .slick-slider {
-      margin: 0;
-      align-items: center;
-    }
-  
-    .slick-slider_container {
-      margin: 65px 0 0 15px;
-      width: 290px;
-    }
-  }
-  
+}
