@@ -11,12 +11,12 @@ export const CardSlider = ({ data }) => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    // centerMode: true,
-    focusOnSelect: true,
-    arrows: false, // Включите стрелки
-    centerPadding: "20px",
+    centerMode: true,
+    // focusOnSelect: true,
+    arrows: false,
+    centerPadding: "60px",
     autoplay: true,
-  };
+  }
 
   return (
     <div className="slick-slider_container_card">

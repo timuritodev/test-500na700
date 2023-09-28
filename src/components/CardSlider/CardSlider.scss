@@ -2,15 +2,11 @@
   max-width: 1430px;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin-left: -60px;
 }
 
 .slick-slider_container_card {
   position: relative;
-}
-
-@media screen and (max-width: 1410px) {
-  .slick-slider_container_card {
-    margin: 65px 0 0 0;
-  }
+  margin: 65px 0 0 0;
+  overflow: hidden;
 }
