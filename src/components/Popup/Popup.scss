@@ -57,3 +57,33 @@
   gap: 30px;
   cursor: pointer;
 }
+
+.popup__link {
+  font-family: Mplus 1p;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.popup__sub-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup__sub-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: Mplus 1p;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.popup__link:hover .popup__sub-menu {
+  display: block;
+}
