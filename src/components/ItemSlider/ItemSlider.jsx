@@ -22,7 +22,7 @@ export const ItemSlider = ({ data }) => {
     centerPadding: "84px",
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1410,
         settings: {
           centerPadding: "0",
           centerMode: false,

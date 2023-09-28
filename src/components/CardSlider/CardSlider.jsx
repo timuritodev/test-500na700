@@ -11,10 +11,11 @@ export const CardSlider = ({ data }) => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    centerMode: true,
+    // centerMode: true,
     focusOnSelect: true,
     arrows: false, // Включите стрелки
-    // centerPadding: "50px",
+    centerPadding: "20px",
+    autoplay: true,
   };
 
   return (
