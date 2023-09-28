@@ -20,7 +20,7 @@ export const CardSlider = ({ data }) => {
 
   return (
     <div className="slick-slider_container_card">
-      <Slider {...settings} className="slick-slider">
+      <Slider {...settings} className="slick-slider_card">
         {data.map((item) => (
           <Card key={item.id} data={item} />
         ))}
