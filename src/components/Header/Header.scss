@@ -12,10 +12,15 @@
   max-width: 1240px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   height: 47px;
   margin: 0 auto;
+}
+
+.header__logo_link {
+  width: 42px;
+  height: 50px;
+  margin: 0 212.5px 0 0;
 }
 
 .header__logo {
@@ -42,7 +47,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  padding: 20px;
+  padding: 0 0 20px 0;
   border-bottom: 3px solid transparent;
   transition: border-color 0.3s ease;
 }
@@ -55,11 +60,11 @@
 .header__sub-menu {
   display: none;
   position: absolute;
-  top: 134px;
+  top: 124px;
   left: 0;
   width: 100%;
   padding: 0;
-  height: 25vh;
+  height: 30vh;
   background-color: #000;
   z-index: 3;
   list-style-type: none;
@@ -72,8 +77,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px; 
-  margin: 0 -120px 0 0;
+  gap: 30px;
+  margin: 0 235px 0 0;
 }
 .header__sub-link {
   text-decoration: none;
@@ -105,10 +110,13 @@
   .header {
     padding: 35px 0 20px 0;
   }
+  .header__container {
+    justify-content: space-between;
+  }
   .header__logo {
     margin: 0 212.5px 0 15px;
   }
-    .header__links-container {
+  .header__links-container {
     display: none;
   }
 }

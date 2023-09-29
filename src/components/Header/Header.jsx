@@ -2,12 +2,15 @@ import React from "react";
 import "./Header.scss";
 import pic from "../../assets/logo.svg";
 import { PopupButton } from "../PopupButton/PopupButton.jsx";
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
     <header className={"header"}>
       <div className="header__container">
-        <img className="header__logo" src={pic} alt={pic} />
+        <Link className="header__logo_link" to="/">
+          <img className="header__logo" src={pic} alt={pic} href="/asd" />
+        </Link>
         <ul className="header__links-container">
           <li className="header__link">
             Пункт 1

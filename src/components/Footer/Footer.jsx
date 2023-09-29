@@ -15,7 +15,12 @@ export const Footer = () => {
           <p className="footer__subtitle">
             ОписаниОписание Описание Описание Описание Описание Описаниее
           </p>
-          <a className="footer__link" href="500na700.ru">
+          <a
+            className="footer__link"
+            href="500na700.ru"
+            target="_blank"
+            rel="noreferrer"
+          >
             500na700.ru
           </a>
         </div>
