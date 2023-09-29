@@ -12,16 +12,38 @@ export const Header = () => {
           <li className="header__link">
             Пункт 1
             <ul className="header__sub-menu">
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 1
-                </a>
-              </li>
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 1
-                </a>
-              </li>
+              <div className="header__sub-menu__container">
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 1
+                  </a>
+                </li>
+              </div>
             </ul>
           </li>
           <li className="header__link">
