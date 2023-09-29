@@ -73,6 +73,13 @@
   padding: 0;
 }
 
+.popup__sub-menu__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 0 0 0;
+}
+
 .popup__sub-link {
   color: #fff;
   text-decoration: none;

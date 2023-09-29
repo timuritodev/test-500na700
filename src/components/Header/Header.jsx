@@ -38,72 +38,135 @@ export const Header = () => {
                     Подпункт меню 1
                   </a>
                 </li>
-                <li>
-                  <a className="header__sub-link" href="#">
-                    Подпункт меню 1
-                  </a>
-                </li>
               </div>
             </ul>
           </li>
           <li className="header__link">
             Пункт 2
             <ul className="header__sub-menu">
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 2
-                </a>
-              </li>
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 2
-                </a>
-              </li>
+              <div className="header__sub-menu__container">
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 2
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 2
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 2
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 2
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 2
+                  </a>
+                </li>
+              </div>
             </ul>
           </li>
           <li className="header__link">
             Пункт 3
             <ul className="header__sub-menu">
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 3
-                </a>
-              </li>
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 3
-                </a>
-              </li>
+              <div className="header__sub-menu__container">
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 3
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 3
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 3
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 3
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 3
+                  </a>
+                </li>
+              </div>
             </ul>
           </li>
           <li className="header__link">
             Пункт 4
             <ul className="header__sub-menu">
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 4
-                </a>
-              </li>
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 4
-                </a>
-              </li>
+              <div className="header__sub-menu__container">
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 4
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 4
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 4
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 4
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 4
+                  </a>
+                </li>
+              </div>
             </ul>
           </li>
           <li className="header__link">
             Пункт 5
             <ul className="header__sub-menu">
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 5
-                </a>
-              </li>
-              <li>
-                <a className="header__sub-link" href="#">
-                  Подпункт меню 5
-                </a>
-              </li>
+              <div className="header__sub-menu__container">
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 5
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 5
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 5
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 5
+                  </a>
+                </li>
+                <li>
+                  <a className="header__sub-link" href="#">
+                    Подпункт меню 5
+                  </a>
+                </li>
+              </div>
             </ul>
           </li>
         </ul>
